@@ -51,8 +51,26 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 - [Testing Recipes](https://ja.reactjs.org/docs/testing-recipes.html)
 - [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react#reacttypescript-cheatsheets)
 
-Log
+Initialization
 
 ```sh
 npx create-react-app react-tutorial-ts --template typescript
+```
+
+Add ESLint
+
+```sh
+$ yarn run eslint --init
+✔ How would you like to use ESLint? · problems
+✔ What type of modules does your project use? · esm
+✔ Which framework does your project use? · react
+✔ Does your project use TypeScript? · Yes
+✔ Where does your code run? · browser
+✔ What format do you want your config file to be in? · JSON
+The config that you’ve selected requires the following dependencies:
+
+eslint-plugin-react@latest @typescript-eslint/eslint-plugin@latest @typescript-eslint/parser@latest
+✔ Would you like to install them now with npm? · No
+
+$ yarn add --dev eslint-plugin-react@latest @typescript-eslint/eslint-plugin@latest @typescript-eslint/parser@latest
 ```
