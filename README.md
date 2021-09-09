@@ -44,3 +44,15 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Memo
+
+- [React Official Tutorial](https://ja.reactjs.org/tutorial/tutorial.html)
+- [Testing Recipes](https://ja.reactjs.org/docs/testing-recipes.html)
+- [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react#reacttypescript-cheatsheets)
+
+Log
+
+```sh
+npx create-react-app react-tutorial-ts --template typescript
+```
