@@ -69,7 +69,7 @@ class Board extends React.Component<BoardProps, GameState> {
   }
 }
 
-class Game extends React.Component<any, GameState> {
+class Game extends React.Component<unknown, GameState> {
   constructor(props: unknown) {
     super(props);
     this.state = {
@@ -172,7 +172,7 @@ class Game extends React.Component<any, GameState> {
   }
 }
 
-function App() {
+function App(): JSX.Element {
   return (
     <div className="App">
       <Game />
